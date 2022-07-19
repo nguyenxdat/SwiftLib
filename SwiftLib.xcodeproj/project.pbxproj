@@ -15,6 +15,7 @@
 		182D393B28864A7C0048E94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182D393A28864A7C0048E94E /* Assets.xcassets */; };
 		182D393E28864A7C0048E94E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182D393C28864A7C0048E94E /* LaunchScreen.storyboard */; };
 		182D394428864C130048E94E /* SwiftLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D394328864C130048E94E /* SwiftLib.swift */; };
+		182D394628864CE40048E94E /* SwiftyLib.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 182D394528864CE40048E94E /* SwiftyLib.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		182D393D28864A7C0048E94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182D393F28864A7C0048E94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182D394328864C130048E94E /* SwiftLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLib.swift; sourceTree = "<group>"; };
+		182D394528864CE40048E94E /* SwiftyLib.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftyLib.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		182D392328864A060048E94E /* SwiftLib */ = {
 			isa = PBXGroup;
 			children = (
+				182D394528864CE40048E94E /* SwiftyLib.podspec */,
 				182D392428864A060048E94E /* SwiftLib.h */,
 				182D394328864C130048E94E /* SwiftLib.swift */,
 			);
@@ -182,6 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182D394628864CE40048E94E /* SwiftyLib.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
