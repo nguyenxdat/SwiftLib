@@ -14,6 +14,7 @@
 		182D393928864A770048E94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182D393728864A770048E94E /* Main.storyboard */; };
 		182D393B28864A7C0048E94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182D393A28864A7C0048E94E /* Assets.xcassets */; };
 		182D393E28864A7C0048E94E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182D393C28864A7C0048E94E /* LaunchScreen.storyboard */; };
+		182D394428864C130048E94E /* SwiftLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D394328864C130048E94E /* SwiftLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		182D393A28864A7C0048E94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182D393D28864A7C0048E94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182D393F28864A7C0048E94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182D394328864C130048E94E /* SwiftLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				182D392428864A060048E94E /* SwiftLib.h */,
+				182D394328864C130048E94E /* SwiftLib.swift */,
 			);
 			path = SwiftLib;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					182D392028864A060048E94E = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 					182D392E28864A770048E94E = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -198,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182D394428864C130048E94E /* SwiftLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +361,7 @@
 		182D392928864A060048E94E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -376,6 +382,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -384,6 +391,7 @@
 		182D392A28864A060048E94E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
